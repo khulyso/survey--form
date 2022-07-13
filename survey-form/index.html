@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>survey-form</title>
+</head>
+<body>
+    <div id="main">
+       <h1 id="title">CodeHouseCamp           Suevey Form</h1>
+  <p id="description">
+     Thank you for taking the time to       help us improve our plantform.
+   </p>
+   <form id="survey-form">
+    <!--personal info niput field-->
+        
+              <label for="name" id="name-label">Name:</label><br>
+              <input type="text" id="name" placeholder="enter your name" required><br>
+              <label for="email" id="email-label">Email:</label><br>
+              <input type="email" id="email" placeholder="enter your email" required><br>
+              <label for="age" id="number-label">Age(optional):</label><br>
+              <input type="number" min="18" max="65" id="number" placeholder="enter your age"><br>
+
+           <!--first dropdown-->
+    
+              <label for="options">Which option best describe your current role?</label><br>
+              <select id="dropdown" name="options">
+                  <option value="student">Student</option>
+                  <option value="full time job">Full time job</option>
+                  <option value="full time student">Full time student</option>
+                  <option value="other">other</option>
+              </select>
+          
+          <!--radio input field-->
+              <p>would you recommend CodeHouseCamp to a friend?</p>
+              <label>
+                  <input name="form-radio" value="definately" type="radio" class="input-radio">Definately
+              </label><br>
+              <label>
+                  <input name="form-radio" value="maybe" type="radio" class="input-radio">Maybe
+              </label><br>
+              <label>
+                  <input name="form-radio" value="not sure" type="radio" class="input-radio">Not sure
+              </label><br><br>
+          
+          <!--second dropdown-->
+            <label for="option">What is your favourate feature on CodeHouseCamp?</label><br>
+               <select id="drop" name="options">
+                  <option value="challenge">Challenge</option>
+                  <option value="project">Projects</option>
+                  <option value="community">Community</option>
+                  <option value="open source">Open Source</option>
+              </select><br>
+
+            <!--checkbox-->
+              <p>What would you like to see improve?</p>
+              <label>
+                  <input type="checkbox" value="front-end-project" name="prefer">Front-end  Project
+              </label><br>
+              <label>
+                  <input type="checkbox" value="back-end-project" name="prefer">Back-end Project
+              </label><br>
+              <label>
+                  <input type="checkbox" value="data-visualization" name="prefer">Data Visualization
+              </label><br>
+              <label>
+                  <input type="checkbox" value="challenges" name="prefer">Challenges
+              </label><br>
+              <label>
+                  <input type="checkbox" value="open-source-community" name="prefer">Open source community
+              </label><br>
+              <label>
+                  <input type="checkbox" value="gilter-help-room" name="prefer">Gilter help room
+              </label><br>
+              <label>
+                  <input type="checkbox" value="videos" name="prefer">Videos
+              </label><br>
+              <label>
+                  <input type="checkbox" value="city-meetup" name="prefer">City meetup
+              </label><br>
+              <label>
+                  <input type="checkbox" value="wiki" name="prefer">Wiki
+              </label><br>
+              <label>
+                  <input type="checkbox" value="forum" name="prefer">Forum
+              </label><br>
+              <label>
+                  <input type="checkbox" value="additional-course" name="prefer">Additional course
+              </label>
+          
+          
+            <p>Any comment or suggestion</p>
+              <textarea placeholder="leave your comment here" rows="5"></textarea><br>
+             <button id="submit">Submit</button><br><br>
+             
+            <code>
+                &copy;copyright:2022 coded by khulysojohn.
+            </code>
+        </form>
+    </div>
+</body>
+</html>

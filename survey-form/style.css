@@ -1,0 +1,76 @@
+body{
+    background-color: hsl(216, 50%, 16%);
+  }
+  #main{
+    width: 70%;
+    background-color:hsl(217, 54%, 11%);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+  }
+  #title{
+    color: hsl(178, 100%, 50%);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+  }
+  #description{
+    color: white;
+    font-size: 20px;
+    padding-left: 10%;
+  }
+  #survey-form{
+    margin-left: 10%;
+  
+  }
+  #name-label,#email-label,#number-label{
+    color: white;
+  
+  }
+  #name,#number,#email{
+    width: 85%;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+  #dropdown{
+    width: 85%;
+    height: 30px;
+  }
+  option{
+    color:blue;
+    font-size: 20px;
+  }
+  p{
+    color: white;
+  }
+  label{
+    color: white;
+  }
+  #drop{
+    width: 85%;
+    height: 30px;
+  }
+  textarea{
+    width: 85%;
+  }
+  button{
+    width: 86%;
+    height: 30px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+  }
+  code{
+    color: white;
+    font-size: 20px;
+  }
+  @media only screen and (max-width:700px){
+    #main{
+      width: 98%;
+      border-radius: 1px;
+    }
+    code{
+      font-size: 15px;
+    
+    }
+  }
